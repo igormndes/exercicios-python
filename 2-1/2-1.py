@@ -10,8 +10,8 @@ Arquivo: exercicios3\capitulo 02\exercicio-02-01.py
 
 Converta as seguintes expressões matemáticas para que possam ser calculadas usando o interpretador Python.
 10 + 20 × 30
-42 ÷ 30
-(94 + 2) × 6 - 1
+4² ÷ 30
+(9^4 + 2) × 6 - 1
 """
 
 calculo_1 = 10 + 20 * 30
@@ -20,13 +20,14 @@ print (f"Cálculo 01 :{calculo_1}")
 gabarito_1 = 10 + 20 * 30
 print (f"Gabarito 01: {gabarito_1} \n")
 
-calculo_2 = 42 / 30
+# para potencializações utilizar **
+calculo_2 = 4 ** 2 / 30
 print (f"Cálculo 02 :{calculo_2}")
 
 gabarito_2 = 4 ** 2 / 30 
 print (f"Gabarito 02: {gabarito_2} \n")
 
-calculo_3 = (94 + 2) * 6 - 1 
+calculo_3 = (9 ** 4 + 2) * 6 - 1 
 print (f"Cálculo 03 :{calculo_3}")
 
 gabarito_3 = ( 9 ** 4 + 2) * 6  - 1 
