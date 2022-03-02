@@ -11,17 +11,13 @@ Arquivo: Arquivo: exercicios3\capitulo 03\exercicio-03-02.py
 Complete a tabela a seguir, respondendo True ou False. Considere a = 4, b = 10, c = 5.0, d = 1 e f = 5.
 
 Expressões:
-a == c
-a < b
-d > b
-c != f
-a == b
-c < d
-b > a
-c >= f
-f >= c 
-c <= c
-c <= f
+Expressão   Resultado      Expressão   Resultado
+a == c    ○ True ○ False   b > a     ○ True ○ False
+a < b     ○ True ○ False   c >= f    ○ True ○ False
+d > b     ○ True ○ False   f >= c    ○ True ○ False
+c != f    ○ True ○ False   c <= c    ○ True ○ False
+a == b    ○ True ○ False   c <= f    ○ True ○ False
+c < d     ○ True ○ False
 
 """
 
